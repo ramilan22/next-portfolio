@@ -17,6 +17,7 @@ import web3 from "../public/web3.png";
 import web4 from "../public/web4.png";
 import web5 from "../public/web5.png";
 import web6 from "../public/web6.png";
+import dev from "../public/dev.png";
 import { useState } from "react";
 export default function Home() {
   const [darkMode, SetDarkMode] = useState(false);
@@ -44,7 +45,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8"
-                  href="#"
+                  href="https://drive.google.com/file/d/11JVm-rfiXgVFh-HWTmM3JrFiENO8tzJm/view?usp=share_link"
                 >
                   Resume
                 </a>
@@ -66,9 +67,16 @@ export default function Home() {
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-300">
-            <AiFillTwitterCircle />
-            <AiFillLinkedin />
-            <AiFillYoutube />
+            <a href="https://twitter.com/Ramilan21284729">
+              {" "}
+              <AiFillTwitterCircle />
+            </a>
+            <a href="https://www.linkedin.com/in/ramibabay/">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://www.youtube.com/channel/UCxLYSO8VsHSnFVVpXK1_WgA">
+              <AiFillYoutube />
+            </a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
             <Image src={deved} layout="fill" objectFit="cover" alt="" />
@@ -79,16 +87,102 @@ export default function Home() {
             <h3 className="text-3xl py-1 dark:text-white">
               Services I can offer
             </h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              Activities and societies: Neutron Activation Analysis laboratory
-              at Nuclear Department-SlowPoke
-              http://www.polymtl.ca/nucleaire/LTN/index.phpActivities and
-              societies: Neutron Activation Analysis laboratory at Nuclear
-              Department-SlowPoke
-              http://www.polymtl.ca/nucleaire/LTN/index.php…see more Classical
-              Mechanics,Quantum Mechanics,Calculus,Linear Algebra,Non linear
-              Algebra,Hermitian Algebra,Atomic Decay,Waves
-            </p>
+            As a developer, there are a wide range of services I can offer to
+            clients or businesses. Here are some examples:
+            <ul>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    Web Development: I can build and maintain websites for
+                    businesses or individuals. This can include front-end
+                    development (HTML, CSS, JavaScript) and back-end development
+                    (server-side scripting, databases, APIs).
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    Mobile App Development: I can create mobile applications for
+                    iOS or Android platforms, using programming languages such
+                    as Swift, Java, or Kotlin.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    Desktop App Development: I can build desktop applications
+                    for Windows, MacOS, or Linux using programming languages
+                    such as Java, C++, or Python.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    Game Development: I can create games for various platforms,
+                    such as mobile, desktop, or consoles, using game engines
+                    such as Unity or Unreal Engine.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    Database Development: I can design and build databases for
+                    businesses, including data modeling, schema design, and
+                    database optimization.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    Cloud Computing: I can help businesses migrate their
+                    applications and services to the cloud, using platforms such
+                    as AWS, Azure, or Google Cloud.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    API Development: I can design and build APIs (Application
+                    Programming Interfaces) that allow different software
+                    applications to communicate with each other.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    DevOps: I can help businesses automate their software
+                    development and deployment processes, using tools such as
+                    Docker, Kubernetes, or Jenkins.
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div className="flex">
+                  <Image src={dev} alt="" width="100" height="100" />
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300"></p>
+                  <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
+                    Software Testing: I can help businesses ensure the quality
+                    of their software applications, through manual or automated
+                    testing, regression testing, and load testing.
+                  </p>
+                </div>
+              </li>
+            </ul>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
               Bloomberg’s industry-leading data is not only the most
               comprehensive, it’s also the most timely and accurate. So you can
@@ -105,20 +199,38 @@ export default function Home() {
                 alt=""
               />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Beautiful Designs
+                Mobile Development
               </h3>
               <p className="dark:text-white">
-                Design is the process of creating something with a specific
-                purpose or function in mind. It encompasses a wide range of
-                disciplines, including graphic design, industrial design,
-                interior design, fashion design, and many more. At its core,
-                design involves understanding the needs and desires of the
+                Mobile development refers to the process of creating software
+                applications that run on mobile devices such as smartphones,
+                tablets, and wearables. There are two main platforms for mobile
+                development: iOS and Android. iOS development involves building
+                apps for Apple's mobile operating system, which runs on iPhones,
+                iPads, and iPod Touch devices. iOS apps are typically developed
+                using the Swift or Objective-C programming languages and the
+                Xcode development environment. Android development involves
+                building apps for Google's mobile operating system, which runs
+                on a wide range of devices from various manufacturers. Android
+                apps are typically developed using Java or Kotlin programming
+                languages and the Android Studio development environment. Mobile
+                development involves several stages, including designing the
+                app's user interface, writing the code, testing the app, and
+                deploying it to the app stores. Developers must also consider
+                the different screen sizes, hardware capabilities, and operating
+                system versions of the target devices. Mobile development can be
+                done natively, using platform-specific programming languages and
+                tools, or using cross-platform frameworks such as React Native,
+                Flutter, and Xamarin, which allow developers to write code once
+                and deploy it to multiple platforms.
               </p>
               <h4 className="py-4 text-teal-600">Design tools that I use</h4>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Sketch</p>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Figma</p>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Canva</p>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Blender</p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">Android</p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">IOS</p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">Hybrid</p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">
+                React Native
+              </p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image
@@ -129,19 +241,48 @@ export default function Home() {
                 alt=""
               />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Beautiful Designs
+                Web Development
               </h3>
               <p className="dark:text-white">
-                Design is the process of creating something with a specific
-                purpose or function in mind. It encompasses a wide range of
-                disciplines, including graphic design, industrial design,
-                interior design, fashion design, and many more. At its core,
+                Web development refers to the process of creating and
+                maintaining websites and web applications. It involves a
+                combination of programming languages, frameworks, and tools to
+                design, develop, and deploy web-based solutions. Web development
+                can be divided into two main categories: front-end development
+                and back-end development. Front-end development involves
+                creating the user interface and experience of a website or web
+                application. This includes designing the layout, graphics, and
+                typography, and implementing the functionality using HTML, CSS,
+                and JavaScript. Front-end frameworks such as React, Angular, and
+                Vue are commonly used to simplify the development process.
+                Back-end development involves building the server-side
+                functionality that powers the website or web application. This
+                includes managing the database, handling user authentication,
+                and processing requests from the client-side. Back-end
+                developers typically use programming languages such as Python,
+                PHP, Ruby, or JavaScript (using Node.js) and frameworks such as
+                Django, Laravel, Ruby on Rails, or Express. Full-stack
+                development refers to the combination of both front-end and
+                back-end development, where a developer has knowledge and skills
+                in both areas. Web development also involves the use of various
+                tools and technologies, such as version control systems like
+                Git, web servers like Apache or Nginx, and content management
+                systems like WordPress or Drupal. Additionally, web developers
+                must also consider web accessibility and search engine
+                optimization (SEO) in their development process to ensure their
+                websites are accessible and discoverable by users.
               </p>
               <h4 className="py-4 text-teal-600">Design tools that I use</h4>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Sketch</p>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Figma</p>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Canva</p>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Blender</p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">
+                React/Next
+              </p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">
+                Django/Python
+              </p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">
+                HTML/CSS/JAVASCRIPT
+              </p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">Node js</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10">
               <Image
@@ -152,21 +293,43 @@ export default function Home() {
                 alt=""
               />
               <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
-                Beautiful Designs
+                Graphic Designs
               </h3>
               <p className="dark:text-white">
-                Design is the process of creating something with a specific
-                purpose or function in mind. It encompasses a wide range of
-                disciplines, including graphic design, industrial design,
-                interior design, fashion design, and many more. At its core,
-                design involves understanding the needs and desires of the
-                intended audience and finding creative solutions to meet those
+                Graphic design is the art and practice of creating visual
+                content to communicate information or ideas to an audience. It
+                involves combining typography, images, colors, and other
+                elements to create visual representations of concepts and
+                messages. Graphic designers use various tools and software to
+                create designs for a wide range of media, including print, web,
+                and mobile. They work on projects such as logos, posters,
+                brochures, book covers, websites, and mobile apps. The design
+                process typically involves understanding the client's needs and
+                goals, researching the target audience and competition,
+                brainstorming ideas, creating rough sketches or mockups,
+                refining the design, and delivering the final product. In
+                addition to technical skills such as using design software and
+                creating digital assets, graphic designers must also have a
+                strong understanding of design principles such as composition,
+                typography, color theory, and visual hierarchy. Some of the
+                common tools used by graphic designers include Adobe Photoshop,
+                Illustrator, InDesign, Sketch, and Figma. They also use various
+                design techniques such as grids, layouts, and wireframing to
+                create designs that are aesthetically pleasing and functional.
+                Good graphic design is essential in creating a strong brand
+                identity, effectively communicating messages to audiences, and
+                enhancing the overall user experience of digital and print
+                media.
               </p>
               <h4 className="py-4 text-teal-600">Design tools that I use</h4>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Sketch</p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">
+                Inkscape/Photoshop
+              </p>
               <p className="text-gray-800 dark:text-gray-300 py-1">Figma</p>
               <p className="text-gray-800 dark:text-gray-300 py-1">Canva</p>
-              <p className="text-gray-800 dark:text-gray-300 py-1">Blender</p>
+              <p className="text-gray-800 dark:text-gray-300 py-1">
+                BlueWillow Ai Generator
+              </p>
             </div>
           </div>
         </section>
@@ -174,21 +337,6 @@ export default function Home() {
           <div>
             {" "}
             <h3 className="text-3xl py-1 dark:text-white">Portofolio</h3>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              Activities and societies: Neutron Activation Analysis laboratory
-              at Nuclear Department-SlowPoke
-              http://www.polymtl.ca/nucleaire/LTN/index.phpActivities and
-              societies: Neutron Activation Analysis laboratory at Nuclear
-              Department-SlowPoke
-              http://www.polymtl.ca/nucleaire/LTN/index.php…see more Classical
-              Mechanics,Quantum Mechanics,Calculus,Linear Algebra,Non linear
-              Algebra,Hermitian Algebra,Atomic Decay,Waves
-            </p>
-            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              Bloomberg’s industry-leading data is not only the most
-              comprehensive, it’s also the most timely and accurate. So you can
-              solve bigger challenges
-            </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
